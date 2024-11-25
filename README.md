@@ -1,6 +1,6 @@
 # Expense Tracker React App
 
-## UI
+## UI views
 
 ![App Screenshot](https://github.com/agaparkg/expense-tracker-react-prop-drilling/raw/main/src/assets/view1.png)
 
