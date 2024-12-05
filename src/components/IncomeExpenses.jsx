@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { MyContext } from "../App";
+import { MyContext } from "../hooks/custom";
 
 export const IncomeExpenses = () => {
   const { transactions } = useContext(MyContext);

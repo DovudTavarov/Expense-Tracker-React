@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { MyContext } from "../App";
+import { MyContext } from "../hooks/custom";
 
 export const AddTransaction = () => {
   const { addTransaction } = useContext(MyContext);

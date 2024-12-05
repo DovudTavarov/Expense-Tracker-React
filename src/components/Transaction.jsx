@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { getSignWithAmount } from "../utils/helpers";
-import { MyContext } from "../App";
+import { MyContext } from "../hooks/custom";
 
 export const Transaction = ({ transaction }) => {
   const { deleteTransaction } = useContext(MyContext);

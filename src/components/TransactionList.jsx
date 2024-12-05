@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Transaction } from "./Transaction.jsx";
-import { MyContext } from "../App.jsx";
+import { MyContext } from "../hooks/custom.js";
 
 export const TransactionList = () => {
   const { transactions } = useContext(MyContext);
